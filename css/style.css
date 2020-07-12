@@ -1,0 +1,142 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-form {
+    margin-left: 40px;
+    width: 400px;
+    height: 480px;
+    background: linear-gradient(to right,#008080  ,#E0FFFF);
+    border-radius:20px;
+}
+
+.form-input {
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin-left: 8px;
+    margin-top: 20px;
+    
+    
+}
+
+i {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-size: 110px;
+    margin: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#reset-pass {
+    margin-top: 5px;
+    float: right;
+    width: 40%;
+    margin-right: 40px;
+}
+
+body {
+    margin-top: 70px;
+    
+    background:url("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg");
+}
+
+@media screen and (max-width: 900px){
+    #image{
+        display: none;
+    }
+    .login-form {
+        margin-left: 0px;
+    }
+    body {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.submit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #000000;
+    color: white;
+    width: 210px ;
+    margin-top: 20px;
+    border: #4169E1;
+    border-radius: 40px;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2F4F4F;
+}
+
+#google {
+    border: 1px solid lightgray;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-top: 17px;
+    background-color: white;
+}
+
+.google-btn:hover {
+    cursor: pointer;
+}
+
+.google-text:hover {
+    background-color: #1E90FF;
+}
+
+.google-text {
+    transition: 0.5s;
+    color: white;
+    background-color: #4169E1;
+    margin-left: 36px;
+    border: 1px solid lightgray;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    height: 25px;
+}
